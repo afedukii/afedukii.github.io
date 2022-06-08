@@ -3,17 +3,25 @@ body{
     font-family: "Segoe UI";
     font-weight: normal;
     min-width: 350px;
+    overflow-x: hidden;
 }
 
 .txtEnfasis{
     color: #0097a7;
     font-weight: 1000;
 }
+div.row{
+    margin-right: 0px;
+ }
+ 
+div.container-fluid{
+    padding-right: 0px;
+ }
 
 #deskMenu{
     width: 100%;
     height: 55px;
-    padding: 10px 0px 5px 0;
+    padding:10px;
     background-color: #0097a7;
     color: #e0f7fa;
 }
