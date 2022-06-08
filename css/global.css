@@ -2,8 +2,7 @@ body{
     background-color: #e0f7fa;
     font-family: "Segoe UI";
     font-weight: normal;
-    min-width: 450px;
-    overflow-x: hidden !important;
+    min-width: 350px;
 }
 
 .txtEnfasis{
