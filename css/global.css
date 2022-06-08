@@ -1,0 +1,80 @@
+body{
+    background-color: #101;
+    color: #eee;
+    font-family: sans-serif;
+}
+
+.txtEnfasis{
+    color: #cf3476;
+}
+
+#deskMenu{
+    width: 100%;
+    margin:0;
+    /*background-color: #cf3476;*/
+}
+#deskLogo{
+    width: 50px;
+}
+#deskMenu ul{
+    margin: 10px 0;
+}
+#deskMenu li{
+    display: inline;
+    margin: 7px;
+}
+#presentation{
+    height: 400px;
+    margin: 30px auto;
+    border-radius: 1em;
+}
+.blurbox{
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 5px;
+    font-family: sans-serif;
+    text-align: left;
+    line-height: 1;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    max-height: 50%;
+    padding: 20px 40px;
+}
+
+.autoWriteConsoleType{
+    display: inline-block;
+    white-space: nowrap;
+    visibility:hidden;
+    overflow: hidden;
+}
+#autoWrite1{
+    width: 39ch;
+    animation: typing 1s  steps(39);
+    animation-delay: 1s;
+}
+#autoWrite2{
+    width: 28ch;
+    animation: typing 1s  steps(28);
+    animation-delay: 2s;
+}
+#autoWrite3{
+    width: 27ch;
+    animation: typing 1s  steps(27);
+    animation-delay: 3s;
+}
+#autoWrite4{
+    width: 41ch;
+    animation: typing 1s  steps(41);
+    animation-delay: 4s;
+}
+#autoWrite5{
+    border-right: 2px solid;
+    width: 21ch;
+    animation: typing 1s  steps(21) , blink .2s infinite;
+    animation-delay: 5s;
+}
+@keyframes typing {
+    from {width: 0;}
+}
+@keyframes blink {
+    50% {border-color: transparent;}
+}
