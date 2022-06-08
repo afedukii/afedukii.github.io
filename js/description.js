@@ -11,7 +11,4 @@ function global() {
     setTimeout(function(){
         document.getElementById("autoWrite4").style.visibility = "visible";
     }, 4000);
-    setTimeout(function(){
-        document.getElementById("autoWrite5").style.visibility = "visible";
-    }, 5000);
 }
