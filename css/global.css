@@ -112,7 +112,7 @@ div.container-fluid{
         height: 200px;
     }
 }
-@media screen and (min-width: 370px) and (max-width: 576px) {
+@media screen and (min-width: 0px) and (max-width: 576px) {
     #imgpresbox, #imgPres{
         display: none;
     }
