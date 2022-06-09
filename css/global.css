@@ -2,7 +2,7 @@ body{
     background-color: #e0f7fa;
     font-family: "Segoe UI";
     font-weight: normal;
-    min-width: 350px;
+    min-width: 400px;
     overflow-x: hidden;
 }
 
@@ -43,7 +43,7 @@ div.container-fluid{
 }
 #presentation{
     border-radius: 1em;
-    height: 410px;
+    height: auto;
     -moz-animation: fadein 1.5s; /* Firefox */
     -webkit-animation: fadein 1.5s; /* Safari and Chrome */
     -o-animation: fadein 1.5s; /* Opera */
@@ -80,24 +80,24 @@ div.container-fluid{
     overflow: hidden;
 }
 #autoWrite1{
-    width: 39ch;
-    animation: typing 1s  steps(39);
+    width: 35ch;
+    animation: typing 0.5s  steps(39);
     animation-delay: 0.5s;
 }
 #autoWrite2{
     width: 25ch;
-    animation: typing 1s  steps(25);
+    animation: typing 0.5s  steps(25);
     animation-delay: 1.5s;
 }
 #autoWrite3{
     width: 22ch;
-    animation: typing 1s  steps(22);
+    animation: typing 0.5s  steps(22);
     animation-delay: 2.5s;
 }
 #autoWrite4{
     border-right: 2px solid;
     width: 33ch;
-    animation: typing 1s  steps(34) , blink .5s infinite;
+    animation: typing 0.5s  steps(34) , blink .5s infinite;
     animation-delay: 3.5s;
 }
 @keyframes typing {
@@ -105,4 +105,15 @@ div.container-fluid{
 }
 @keyframes blink {
     50% {border-color: transparent;}
+}
+
+@media screen and (min-width: 577px) and (max-width: 640px){
+    #imgPres{
+        height: 200px;
+    }
+}
+@media screen and (max-width: 576px) {
+    #imgpresbox, #imgPres{
+        display: none;
+    }
 }

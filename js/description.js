@@ -1,14 +1,14 @@
 function global() {
     setTimeout(function(){
         document.getElementById("autoWrite1").style.visibility = "visible";
-    }, 1500);
+    }, 1800);
     setTimeout(function(){
         document.getElementById("autoWrite2").style.visibility = "visible";
-    }, 2500);
+    }, 2750);
     setTimeout(function(){
         document.getElementById("autoWrite3").style.visibility = "visible";
-    }, 3500);
+    }, 3750);
     setTimeout(function(){
         document.getElementById("autoWrite4").style.visibility = "visible";
-    }, 4500);
+    }, 4750);
 }
