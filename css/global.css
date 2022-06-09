@@ -30,6 +30,8 @@ div.container-fluid{
     position: sticky;
     bottom:0;
     display: none;
+    border-top: #0097a7;
+    background-color: #e0f7fa;
 }
 /*DESK NAVBAR*/
 #deskMenu{
