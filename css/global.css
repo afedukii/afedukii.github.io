@@ -2,7 +2,7 @@ body{
     background-color: #e0f7fa;
     font-family: "Segoe UI";
     font-weight: normal;
-    min-width: 400px;
+    min-width: 370px;
     overflow-x: hidden;
 }
 
@@ -112,7 +112,7 @@ div.container-fluid{
         height: 200px;
     }
 }
-@media screen and (max-width: 576px) {
+@media screen and (min-width: 370px) and (max-width: 576px) {
     #imgpresbox, #imgPres{
         display: none;
     }
