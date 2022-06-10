@@ -17,13 +17,25 @@ div.row{
     margin-right: 0px;
 }
 .header_cont{
-    top: 0px;
+    top: 5px;
     left: 0px;
     right: 0px;
-    height: 25px;
-    padding: 0 5px;
-    border-bottom-left-radius: 50px;
-    border-bottom-right-radius: 50px;
+    height: 35px;
+    padding: 0px 5px;
+    border-radius: 50px;
+    color: #e0f7fa;
+}
+#header_cont_namepage a,#header_cont_sections a{
+    text-decoration: none;
+    color: #e0f7fa;
+    width: auto;
+}
+#header_cont_sections div{
+    padding: 3px 20px;
+    border-radius: 10px;
+}
+#header_cont_sections a :hover{
+    background-color: #006064;
 }
 .bottom_cont_mobile{
     bottom: 0px;
@@ -34,6 +46,7 @@ div.row{
     border-top-left-radius: 25px;
     border-top-right-radius: 25px;
     visibility: hidden;
+    position: sticky;
 }
 .__cont_bar{
     position: fixed;
@@ -50,14 +63,14 @@ div.row{
     position: relative;
 }
 /*presentationsection*/
-#presentation{
+#presentation__section{
     background: linear-gradient(45deg, #2EA6D5, #23D5AB);
 }
 #namePres{
     font-size: 5rem;
     text-align: center;
 }
-#aboutmesection{
+#aboutme__section{
     background: linear-gradient(45deg, #2EA6D5, #23D5AB);
 }
 
@@ -71,6 +84,7 @@ div.row{
     left: 50%;
     bottom: 20px;
     cursor: pointer;
+    transform: translate(-50%, 0%);
 }
 .scroll_section::before,
 .scroll_section::after{
@@ -114,7 +128,8 @@ div.row{
     width: 30px;
 }
 #photo__me{
-    width: 440px;
+    width: 400px;
+    border-bottom:4px solid #23D5AB;
 }
 
 /*media*/
@@ -131,5 +146,8 @@ div.row{
     }
     .bottom_cont_mobile{
         visibility: visible;
+    }
+    #photo__me{
+        width: 70%;
     }
 }
