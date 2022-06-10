@@ -50,7 +50,7 @@ div.row{
     position: absolute;
     left: 50%;
     transform: translate(-50%,0%);
-    bottom: 15px;
+    bottom: 20px;
     cursor: pointer;
 }
 .scroll_section::before,
@@ -97,5 +97,8 @@ div.row{
     #namePres {
         font-size: 3.5rem;
         line-height: 4rem;
+    }
+    .scroll_section{
+        bottom: 90px;
     }
 }
