@@ -24,7 +24,6 @@ div.row{
     padding: 0 5px;
     border-bottom-left-radius: 50px;
     border-bottom-right-radius: 50px;
-    position: sticky;
 }
 .bottom_cont_mobile{
     bottom: 0px;
