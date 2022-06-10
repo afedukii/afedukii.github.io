@@ -32,6 +32,7 @@ div.row{
 }
 #namePres{
     font-size: 5rem;
+    text-align: center;
 }
 /*img*/
 .iconImg{
@@ -39,7 +40,7 @@ div.row{
 }
 
 
-@media (max-width: 800px){
+@media (max-width: 770px){
     #namePres {
         font-size: 3rem;
         line-height: 4rem;
