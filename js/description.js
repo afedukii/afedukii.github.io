@@ -13,6 +13,7 @@ function global() {
         document.getElementById("autoWrite4").style.visibility = "visible";
     }, 4100);
 }
+
 resizeWindow();
 window.addEventListener('resize', resizeWindow);
 

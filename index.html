@@ -3,77 +3,52 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="icon" href="https://afedukii.github.io/media/am-logo_cyan.png">
-        <title>Alfredo Moreno : Ingeniero en Ciencias de la Computaci&oacute;n</title>
         <meta name="description" content="Alfredo Moreno's Portfolio">
         <meta name="keywords" content="porfolio, front-end developer, mobile developer"/>
         <meta name="author" content="Jos&eacute; Alfredo Moreno Su&aacute;rez">
         <meta name="copyright" content="Jos&eacute; Alfredo Moreno Su&aacute;rez"/>
         <meta http-equiv="cache-control" content="no-cache"/>
+        <title>Alfredo Moreno : Ingeniero en Ciencias de la Computaci&oacute;n</title>
+        <link rel="icon" href="https://afedukii.github.io/media/am-logo_cyan.png">
         <link href="css/global.css" rel="stylesheet">
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 
     </head>
-    <body onload="global()">
-        <header>
-            <div id="deskMenu">
-                <div class="row d-flex justify-content-between" id="deskMenuL">
-                    <div id="deskMenuLogo" class="col-sm-6 d-flex justify-content-center  align-items-center">
-                        <img src="https://afedukii.github.io/media/am-logo_cyan.png" class="deskLogo" alt="am-logo_cyan"/>
-                        <strong>
-                            <img src="https://afedukii.github.io/media/am-icon_cyan-2.png" class="amIcon" alt="am-min_cyan"/>
-                            alfredomoreno
-                            <img src="https://afedukii.github.io/media/am-slash_cyan.png" id="amIcon2" alt="am-slash_cyan"/>
-                            <img src="https://afedukii.github.io/media/am-icon_cyan.png" class="amIcon" alt="am-max_cyan"/>
-                        </strong>
-                    </div>
-                    <div id="deskMenuItems" class="col-sm-6 d-flex justify-content-around align-items-center">
-                        <div>ACERCA DE MI</div>
-                        <div>HABILIDADES</div>
-                        <div>PORTAFOLIO</div>
-                    </div>
+    <body>
+        <header class="header_cont">
+            <div class="row">
+                <div class="col-sm-6 d-flex justify-content-center  align-items-center">
+                    <strong>
+                        <img src="https://afedukii.github.io/media/am-icon_cyan-2.png" class="iconImg" alt="am-min_cyan"/>
+                        alfredomoreno
+                        <img src="https://afedukii.github.io/media/am-slash_cyan.png" class="iconImg" alt="am-slash_cyan"/>
+                        <img src="https://afedukii.github.io/media/am-icon_cyan.png" class="iconImg" alt="am-max_cyan"/>
+                    </strong>
+                </div>
+                <div class="col-sm-6 d-flex justify-content-around align-items-center">
+                    <div>ACERCA DE MI</div>
+                    <div>HABILIDADES</div>
+                    <div>PORTAFOLIO</div>
                 </div>
             </div>
-        </header><br/>
-        <div id="presentation" style="border-color: black;border-style: dotted;">
-            <div class="row d-flex justify-content-around align-items-center" >
-                <div class="col-sm-6" id="textPres">
-                    <div class="row d-flex justify-content-around align-items-center">
-                        <div class="col-sm-12" id="textName">
-                            <p>¡Hola Mundo!</br>Mi nombre es Jos&eacute; Alfredo Moreno Su&aacute;rez</p>
-                        </div>
-                        <div class="col-sm-6">
-                            <span id="autoWrite1" class="autoWriteConsoleType"><span class="txtEnfasis">&#62;&nbsp;</span>Ingeniero en Ciencias de la Computaci&oacute;n</span><br/>
-                            <span id="autoWrite2" class="autoWriteConsoleType"><span class="txtEnfasis">&#62;&nbsp;</span>Desarrollador Front-End</span><br/>
-                            <span id="autoWrite3" class="autoWriteConsoleType"><span class="txtEnfasis">&#62;&nbsp;</span>Desarrollador M&oacute;vil</span><br/>
-                            <span id="autoWrite4" class="autoWriteConsoleType"><span class="txtEnfasis">&#62;&nbsp;</span>Con Conocimientos en Diseño Digital</span><br/>   
-                        </div>
+        </header>
+        <main>
+            <section id="presentation" style="border-style:dotted;">
+                <div id="innerdivPres">
+                    <h4>¡Hola Mundo! Me llamo</h4>
+                    <h2 id="namePres">Alfredo Moreno</h2>
+                    <h2 class="titulo"><span class="typed"></span></h2>
+                    <div class="titulo" id="knowledge_pres">
+                        <p><i>Ingeniero en Ciencias de la Computaci&oacute;n</i></p>
+                        <p><i>Desarrollador Front-End</i></p>
+                        <p><i>Desarrollador M&oacute;vil</i></p>
+                        <p><i>Con conocimientos en Diseño Digital</i></p>
                     </div>
                 </div>
-                <div id="imgpresbox" class="col-sm-5 d-flex justify-content-center">
-                    <img id="imgPres" src="https://afedukii.github.io/media/jams_lte.png" alt="alfremoreno"/>
-                </div>
-            </div>
-        </div><br/>
-        <div id="aboutme" style="border-color: black;border-style: dotted;">
-            <div class="d-flex justify-content-center">ACERCA DE MI</div>
-            <div></div>
-        </div><br/>
-        <div style="border-color: black;border-style: dotted;">
-            <div class="d-flex justify-content-center">HABILIDADES, APLICACIONES Y HERRAMIENTAS QUE MANEJO</div>
-            <div></div>
-        </div><br/>
-        <div style="border-color: black;border-style: dotted;">
-            <div class="d-flex justify-content-center">PORTAFOLIO</div>
-            <div></div>
-        </div><br/>
-        <div style="border-color: black;border-style: dotted;">
-            <div class="d-flex justify-content-center">ELLOS HAN CONFIADO EN MI TRABAJO</div>
-            <div></div>
-        </div><br/>
-
-        <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
-        <footer>
+            </section>
+        </main>
+        
+        <!--<footer>
             <div class="d-flex justify-content-center">CONTACTAME</div>
             <div></div>
             <div id="copyright">&#169; Copyright 2022 Diseñado por Alfredo Moreno - Todos los derechos reservados.</div>
@@ -93,8 +68,9 @@
                     <img src="https://afedukii.github.io/media/am-portfolio.png" class="deskLogo" alt="am-logo_cyan"/>
                 </div>
             </div>
-        </div>
-        <script src="js/description.js"></script>
+        </div>-->
+        <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+        <script src="js/main.js"></script>
     </body>
 </html>
