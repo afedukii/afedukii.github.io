@@ -26,6 +26,8 @@ div.container-fluid{
 
 /*MOBILE NAVBAR*/
 #navBarMobile{
+    height: 50px;
+    padding-top: 5px;
     position: -webkit-sticky;
     position: sticky;
     bottom:0;
@@ -45,7 +47,7 @@ div.container-fluid{
 
 /*IMG*/
 .deskLogo{
-    width: 50px;
+    width: 40px;
 }
 .amIcon{
     width: 10px;
@@ -63,10 +65,13 @@ div.container-fluid{
 #presentation{
     border-radius: 1em;
     height: auto;
-    -moz-animation: fadein 1.5s; /* Firefox */
-    -webkit-animation: fadein 1.5s; /* Safari and Chrome */
-    -o-animation: fadein 1.5s; /* Opera */
-    animation: fadein 1.5s;
+    -moz-animation: fadein 2s; /* Firefox */
+    -webkit-animation: fadein 2s; /* Safari and Chrome */
+    -o-animation: fadein 2s; /* Opera */
+    animation: fadein 2s;
+}
+#textName{
+    text-align: center;
 }
 @keyframes fadein {
     from {opacity:0;}
@@ -92,24 +97,24 @@ div.container-fluid{
     overflow: hidden;
 }
 #autoWrite1{
-    width: 35ch;
-    animation: typing 1s  steps(39);
+    width: 36ch;
+    animation: typing 1s  steps(36);
     animation-delay: 1s;
 }
 #autoWrite2{
-    width: 25ch;
-    animation: typing 1s  steps(25);
+    width: 22ch;
+    animation: typing 1s  steps(22);
     animation-delay: 2s;
 }
 #autoWrite3{
-    width: 22ch;
-    animation: typing 1s  steps(22);
+    width: 18ch;
+    animation: typing 1s  steps(18);
     animation-delay: 3s;
 }
 #autoWrite4{
     border-right: 2px solid;
     width: 33ch;
-    animation: typing 1s  steps(34) , blink .5s infinite;
+    animation: typing 1s  steps(33) , blink .5s infinite;
     animation-delay: 4s;
 }
 @keyframes typing {
@@ -121,9 +126,12 @@ div.container-fluid{
 
 
 /*@MEDIA*/
-@media screen and (min-width: 577px) and (max-width: 640px){
-    #imgPres{
-        height: 200px;
+@media screen and (min-width: 577px) and (max-width: 710px){
+    #imgpresbox, #imgPres, #deskMenuItems,#deskMenuItems div{
+        display: none;
+    }
+    #navBarMobile{
+        display: block;
     }
 }
 @media screen and (min-width: 0px) and (max-width: 576px) {
