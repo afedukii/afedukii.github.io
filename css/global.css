@@ -30,6 +30,9 @@ div.row{
     height: 100vh;
     position: relative;
 }
+#namePres{
+    font-size: 5rem;
+}
 /*img*/
 .iconImg{
     width: 15px;
