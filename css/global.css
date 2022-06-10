@@ -37,3 +37,18 @@ div.row{
 .iconImg{
     width: 15px;
 }
+
+
+@media (max-width: 767px){
+    #namePres {
+        font-size: 3rem;
+        line-height: 4rem;
+    }
+}
+
+@media (max-width: 400px){
+    #namePres {
+        font-size: 2.5rem;
+        line-height: 4rem;
+    }
+}
