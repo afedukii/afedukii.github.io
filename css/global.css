@@ -30,6 +30,12 @@ div.row{
     color: #e0f7fa;
     width: auto;
 }
+#header_cont_namepage {
+    padding: 5px 20px;
+}
+#header_cont_flags_inlogo{
+    visibility: hidden;
+}
 #header_cont_sections div{
     padding: 3px 20px;
     border-radius: 10px;
@@ -141,10 +147,10 @@ div.row{
     .scroll_section{
         bottom: 150px;
     }
-    #header_cont_sections{
+    #header_cont_sections,#header_cont_flags{
         visibility: hidden;
     }
-    .bottom_cont_mobile{
+    .bottom_cont_mobile,#header_cont_flags_inlogo{
         visibility: visible;
     }
     #photo__me{
