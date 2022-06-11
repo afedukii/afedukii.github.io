@@ -88,6 +88,10 @@ div.row{
 #presentation__section{
     background: linear-gradient(45deg, #2EA6D5, #23D5AB);
 }
+#es_presentation{
+    visibility: hidden;
+    margin-top: -2rem;
+}
 #namePres{
     font-size: 5rem;
     text-align: center;
