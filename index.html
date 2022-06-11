@@ -15,36 +15,26 @@
 
     </head>
     <body>
-        <header class="header_cont __cont_bar">
-            <div class="row">
-                <div id="header_cont_namepage" class="col-sm-4 d-flex justify-content-between align-items-center">
-                    <a href="https://afedukii.github.io/"><strong>
-                        <img src="https://afedukii.github.io/assets/icon/am-less_than.png" class="iconImg" alt="less than symbol  - simbolo menor que"/>
-                        alfredomoreno
-                        <img src="https://afedukii.github.io/assets/icon/am-slash.png" class="iconImg" alt="slash - barra oblicua"/>
-                        <img src="https://afedukii.github.io/assets/icon/am-greater_than.png" class="iconImg" alt="greater than symbol - simbolo mayor que"/>
-                    </a></strong>
-                    <div id="mobile_flags" class="flags">
-                        <div class="flags__item" data-language="es">
-                            <img src="https://afedukii.github.io/assets/icon/mx-icon.svg" alt="bandera de México - Mexico's flag"/>
-                        </div>
-                        <div class="flags__item" data-language="gb">
-                            <img src="https://afedukii.github.io/assets/icon/gb-icon.svg" alt="bandera de Gran Bretaña - Great Britain's flag"/>
-                        </div>
-                    </div>
+        <header class="header_cont __cont_bar d-flex justify-content-around align-items-center">
+            <div id="header_cont_namepage" class="d-flex justify-content-around align-items-center">
+                <a href="https://afedukii.github.io/"><strong>
+                    <img src="https://afedukii.github.io/assets/icon/am-less_than.png" class="iconImg" alt="less than symbol  - simbolo menor que"/>
+                    alfredomoreno
+                    <img src="https://afedukii.github.io/assets/icon/am-slash.png" class="iconImg" alt="slash - barra oblicua"/>
+                    <img src="https://afedukii.github.io/assets/icon/am-greater_than.png" class="iconImg" alt="greater than symbol - simbolo mayor que"/>
+                </a></strong>
+            </div>
+            <div id="header_cont_sections" class="d-flex justify-content-between">
+                <a href="#aboutme__section"><div><span data-section="desk_menu" data-value="aboutme">About me</span></div></a>
+                <a href="#skills__section"><div><span data-section="desk_menu" data-value="skills">Skills</span></div></a>
+                <a href="#porfolio__section"><div><span data-section="desk_menu" data-value="portfolio">Portfolio</span></div></a>
+            </div>
+            <div id="desk_flags" class="flags">
+                <div class="flags__item" data-language="es">
+                    <img src="https://afedukii.github.io/assets/icon/mx-icon.svg" alt="bandera de México - Mexico's flag"/>
                 </div>
-                <div id="header_cont_sections" class="col-sm-5 d-flex justify-content-around align-items-center">
-                    <div><a href="#aboutme__section"><div data-section="desk_menu" data-value="aboutme">About me</div></a></div>
-                    <div><a href="#skills__section"><div>Skills</div></a></div>
-                    <div><a href="#porfolio__section"><div>Portfolio</div></a></div>
-                </div>
-                <div id="desk_flags" class="flags">
-                    <div class="flags__item" data-language="mx">
-                        <img src="https://afedukii.github.io/assets/icon/mx-icon.svg" alt="bandera de México - Mexico's flag"/>
-                    </div>
-                    <div class="flags__item" data-language="gb">
-                        <img src="https://afedukii.github.io/assets/icon/gb-icon.svg" alt="bandera de Gran Bretaña - Great Britain's flag"/>
-                    </div>
+                <div class="flags__item" data-language="gb">
+                    <img src="https://afedukii.github.io/assets/icon/gb-icon.svg" alt="bandera de Gran Bretaña - Great Britain's flag"/>
                 </div>
             </div>
         </header>
@@ -58,7 +48,7 @@
                         <h2 id="namePres">Alfredo Moreno</h2>
                     </div>
                     <div id="en_presentation" class="col-sm-12 d-flex align-items-center justify-content-center">
-                        <h5 class="titulo"><span class="typed"></span></h3>
+                        <h5 id="i-en" class="titulo"><span class="typed"></span></h5>
                         <div class="titulo" id="knowledge_pres">
                             <p><i>> Computing Science Engineer</i></p>
                             <p><i>> Front-End Developer</i></p>
@@ -67,7 +57,7 @@
                         </div>
                     </div>
                     <div id="es_presentation" class="col-sm-12 d-flex align-items-center justify-content-center">
-                        <h5 class="titulo2"><span class="typed2"></span></h3>
+                        <h5 id="i-es" class="titulo2"><span class="typed2"></span></h5>
                         <div class="titulo2" id="knowledge_pres_es">
                             <p><i>> Ingeniero en Ciencias de la Computaci&oacute;n</i></p>
                             <p><i>> Desarrollador Front-End</i></p>

@@ -21,30 +21,27 @@ div.row{
     left: 0px;
     right: 0px;
     height: 35px;
-    padding: 0px 5px;
+    padding: 0px 0px;
     border-radius: 50px;
     color: #e0f7fa;
 }
 #header_cont_namepage a,#header_cont_sections a{
     text-decoration: none;
     color: #e0f7fa;
-    width: auto;
-}
-#header_cont_namepage {
-    padding: 5px 20px;
+    text-align: center;
 }
 #mobile_flags{
     visibility: hidden;
 }
 #mobile_flags,#desk_flags{
     width: 75px;
-    display: inline-flex;
+    display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 0px;
 }
 .flags__item{
-    width: 28px;
+    width: 30px;
 }
 .flags__item img{
     display: block;
@@ -53,7 +50,7 @@ div.row{
 }
 
 #header_cont_sections div{
-    padding: 3px 20px;
+    padding: 0px 10px;
     border-radius: 10px;
 }
 #header_cont_sections a :hover{
@@ -88,9 +85,8 @@ div.row{
 #presentation__section{
     background: linear-gradient(45deg, #2EA6D5, #23D5AB);
 }
-#es_presentation{
-    visibility: hidden;
-    margin-top: -2rem;
+#i-es{
+    display: none;
 }
 #namePres{
     font-size: 5rem;
@@ -167,8 +163,8 @@ div.row{
     .scroll_section{
         bottom: 150px;
     }
-    #header_cont_sections,#desk_flags{
-        visibility: hidden;
+    #header_cont_sections a{
+        display: none;
     }
     .bottom_cont_mobile,#mobile_flags{
         visibility: visible;
