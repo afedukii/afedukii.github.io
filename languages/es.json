@@ -1,0 +1,9 @@
+{
+    "intro":{
+        "greet":"¡Hola Mundo! Me llamo",
+        "education":"Ingeniero en Ciencias de la Computaci&oacute;n",
+        "dev1":"Desarrollador Front-End",
+        "dev2":"Desarrollador M&oacute;vil",
+        "designer":"Diseñador Gr&aacute;fico Vectorial"
+    }
+}

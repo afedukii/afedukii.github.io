@@ -1,3 +1,24 @@
+const typed = new Typed('.typed', {
+	stringsElement: '#knowledge_pres', // ID del elemento que contiene cadenas de texto a mostrar.
+	typeSpeed: 50, // Velocidad en mlisegundos para poner una letra,
+	startDelay: 1000, // Tiempo de retraso en iniciar la animacion. Aplica tambien cuando termina y vuelve a iniciar,
+	backSpeed: 50, // Velocidad en milisegundos para borrrar una letra,
+	smartBackspace: true, // Eliminar solamente las palabras que sean nuevas en una cadena de texto.
+	shuffle: false, // Alterar el orden en el que escribe las palabras.
+	backDelay: 1500, // Tiempo de espera despues de que termina de escribir una palabra.
+	loop: true, // Repetir el array de strings
+	loopCount: false, // Cantidad de veces a repetir el array.  false = infinite
+	showCursor: true, // Mostrar cursor palpitanto
+	cursorChar: '_', // Caracter para el cursor
+	contentType: 'html', // 'html' o 'null' para texto sin formato
+});
+
+const changeLanguage = async (language) => {
+	const requesJson = await fetch('./languages/'+language+'.json');
+	const texts = await requesJson.json();
+	console.log(texts);
+};
+
 resizeWindow();
 window.addEventListener('resize', resizeWindow);
 function resizeWindow(){
@@ -13,19 +34,12 @@ function resizeWindow(){
         document.getElementById("header_cont_namepage").classList.add("justify-content-center");
     }
 }
+window.onload = function () {
+    var flagsElements = document.querySelectorAll('.flags')
+    for (i = 0; i < flagsElements.length; i++) {
+    	flagsElements[i].addEventListener("click",(e)=>{
+			changeLanguage(e.target.parentElement.dataset.language);
+    	});
+    }
+}
 
-
-const typed = new Typed('.typed', {
-	stringsElement: '#knowledge_pres', // ID del elemento que contiene cadenas de texto a mostrar.
-	typeSpeed: 50, // Velocidad en mlisegundos para poner una letra,
-	startDelay: 1000, // Tiempo de retraso en iniciar la animacion. Aplica tambien cuando termina y vuelve a iniciar,
-	backSpeed: 50, // Velocidad en milisegundos para borrrar una letra,
-	smartBackspace: true, // Eliminar solamente las palabras que sean nuevas en una cadena de texto.
-	shuffle: false, // Alterar el orden en el que escribe las palabras.
-	backDelay: 1500, // Tiempo de espera despues de que termina de escribir una palabra.
-	loop: true, // Repetir el array de strings
-	loopCount: false, // Cantidad de veces a repetir el array.  false = infinite
-	showCursor: true, // Mostrar cursor palpitanto
-	cursorChar: '_', // Caracter para el cursor
-	contentType: 'html', // 'html' o 'null' para texto sin formato
-});

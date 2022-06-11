@@ -33,9 +33,25 @@ div.row{
 #header_cont_namepage {
     padding: 5px 20px;
 }
-#header_cont_flags_inlogo{
+#mobile_flags{
     visibility: hidden;
 }
+#mobile_flags,#desk_flags{
+    width: 75px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px;
+}
+.flags__item{
+    width: 28px;
+}
+.flags__item img{
+    display: block;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
 #header_cont_sections div{
     padding: 3px 20px;
     border-radius: 10px;
@@ -147,10 +163,10 @@ div.row{
     .scroll_section{
         bottom: 150px;
     }
-    #header_cont_sections,#header_cont_flags{
+    #header_cont_sections,#desk_flags{
         visibility: hidden;
     }
-    .bottom_cont_mobile,#header_cont_flags_inlogo{
+    .bottom_cont_mobile,#mobile_flags{
         visibility: visible;
     }
     #photo__me{
