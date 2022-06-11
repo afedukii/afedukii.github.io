@@ -14,7 +14,7 @@ const typed = new Typed('.typed', {
 });
 
 const changeLanguage = async (language) => {
-	const requesJson = await fetch('./languages/'+language+'.json');
+	const requesJson = await fetch('https://afedukii.github.io/languages/'+language+'.json');
 	const texts = await requesJson.json();
 	console.log(texts);
 };
