@@ -1,0 +1,10 @@
+{
+    "desk_menu":{
+        "aboutme":"About me",
+        "skills":"Skills",
+        "portfolio":"Portfolio"
+    },
+    "intro":{
+        "greet":"¡Hello World! My name is"
+    }
+}
