@@ -6,5 +6,11 @@
     },
     "intro":{
         "greet":"¡Hola Mundo! Me llamo"
+    },
+    "sections":{
+        "aboutme":"Acerca de mi",
+        "skills":"Habilidades",
+        "trustedme":"Ellos confiaron en mi",
+        "portfolio":"Portafolio"
     }
 }

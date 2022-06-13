@@ -6,5 +6,11 @@
     },
     "intro":{
         "greet":"¡Hello World! My name is"
+    },
+    "sections":{
+        "aboutme":"About me",
+        "skills":"Skills",
+        "trustedme":"They trusted me",
+        "portfolio":"Portfolio"
     }
 }
