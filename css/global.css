@@ -29,6 +29,7 @@ div.row{
     text-decoration: none;
     color: #e0f7fa;
     text-align: center;
+    font-weight:500;
 }
 #mobile_flags{
     visibility: hidden;
@@ -86,7 +87,7 @@ div.row{
     background: linear-gradient(45deg, #2EA6D5, #23D5AB);
     font-family: 'Kdam Thmor Pro', sans-serif;
 }#innerdivPres{
-    transform: translate(0px,-50%);
+    transform: translate(10px,-50%);
 }
 #i-es{
     display: none;
@@ -105,7 +106,7 @@ div.row{
 }#social_media-icons img:hover{
     transform : scale(1.08);
 }
-#aboutme__section{
+#aboutme__section,#skills__section,#portfolio__section{
     background: linear-gradient(45deg, #2EA6D5, #23D5AB);
     padding: 40px 0px;
 }
@@ -116,6 +117,7 @@ div.row{
 }
 .skills_icons div{
     width: 120px;
+    transform: translate(8px,0px);
 }
 .skill-icon-white{
     background-color: transparent;
@@ -195,6 +197,11 @@ div.row{
     width: 100px;
     margin: 15px 0px;
 }
+.desk_project-img{
+    width: 100%;
+    margin: 10px 6px;
+    border-radius: 10px;
+}
 
 /*scroll_section*/
 .scroll_section{
@@ -249,7 +256,7 @@ div.row{
         line-height: 4rem;
     }
     .scroll_section{
-        bottom: 90px;
+        bottom: 110px;
     }
     #header_cont_sections a{
         display: none;
@@ -259,5 +266,9 @@ div.row{
     }
     .title__section{
         font-size: 2rem;
+    }
+    .skill-icon{
+        width: 50px;
+        border: 1px solid black;
     }
 }

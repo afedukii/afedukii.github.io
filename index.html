@@ -17,17 +17,17 @@
     <body>
         <header class="header_cont __cont_bar d-flex justify-content-around align-items-center">
             <div id="header_cont_namepage" class="d-flex justify-content-around align-items-center">
-                <a href="https://afedukii.github.io/"><strong>
+                <a href="https://afedukii.github.io/">
                     <img src="https://afedukii.github.io/assets/icon/am-less_than.png" class="iconImg" alt="less than symbol  - simbolo menor que"/>
                     alfredomoreno
                     <img src="https://afedukii.github.io/assets/icon/am-slash.png" class="iconImg" alt="slash - barra oblicua"/>
                     <img src="https://afedukii.github.io/assets/icon/am-greater_than.png" class="iconImg" alt="greater than symbol - simbolo mayor que"/>
-                </a></strong>
+                </a>
             </div>
             <div id="header_cont_sections" class="d-flex justify-content-center">
-                <a href="#https://afedukii.github.io/#aboutme__section"><div><strong><span data-section="desk_menu" data-value="aboutme">About me</span></strong></div></a>
-                <a href="#https://afedukii.github.io/#skills__section"><div><strong><span data-section="desk_menu" data-value="skills">Skills</span></strong></div></a>
-                <a href="#https://afedukii.github.io/#portfolio__section"><div><strong><span data-section="desk_menu" data-value="portfolio">Portfolio</span></strong></div></a>
+                <a href="#https://afedukii.github.io/#aboutme__section"><div><span data-section="desk_menu" data-value="aboutme">About me</span></div></a>
+                <a href="#https://afedukii.github.io/#skills__section"><div><span data-section="desk_menu" data-value="skills">Skills</span></div></a>
+                <a href="#https://afedukii.github.io/#portfolio__section"><div><span data-section="desk_menu" data-value="portfolio">Portfolio</span></div></a>
             </div>
             <div id="desk_flags" class="flags">
                 <div class="flags__item" data-language="es">
@@ -68,6 +68,7 @@
                 </div>
                 <div id="social_media-icons" class="col-sm-12 d-flex align-items-center justify-content-center">
                     <a href="https://twitter.com/_afeduki"><img  class="social_media-icon" src="https://afedukii.github.io/assets/icon/am-twitter.png" alt="twitter icon- icono twitter"/></a>
+                    <a href="https://github.com/afedukii"><img  class="social_media-icon" src="https://afedukii.github.io/assets/icon/am-mailme.png" alt="mail me icon- icono enviame correo"/></a>
                     <a href="https://github.com/afedukii"><img  class="social_media-icon" src="https://afedukii.github.io/assets/icon/am-github.png" alt="github icon- icono github"/></a>
                 </div>
                 <div class="row d-flex align-items-center justify-content-center">
@@ -77,7 +78,7 @@
             <section id="aboutme__section" class="gensection">
                 <div class="row d-flex justify-content-around align-items-center">
                     <div class="title__section col-sm-12 d-flex justify-content-center align-items-center">
-                        <span class="middle_bottom_line">> About me<span class="bottom_bar_flashed">_</span></span>
+                        <span class="middle_bottom_line" data-section="sections" data-value="aboutme">> About me</span><span class="bottom_bar_flashed">_</span>
                     </div>
                     <div class="col-sm-6 d-flex justify-content-center align-items-center">
                         sadgsFASDFdsdas
@@ -90,8 +91,8 @@
             <section id="skills__section" class="gensection d-flex justify-content-center">
                 <div class="row d-flex justify-content-between align-items-center">
                     <div class="title__section col-sm-12 d-flex justify-content-center align-items-center">
-                        <span class="middle_bottom_line">> Skills<span class="bottom_bar_flashed">_</span></span>
-                    </div>
+                        <span class="middle_bottom_line" data-section="sections" data-value="skills">> Skills</span><span class="bottom_bar_flashed">_</span>
+                    </div><br><br><br>
                     <div class="skills_icons col-sm-6 d-flex justify-content-around align-items-center">
                         <div><img class="skill-icon" src="https://afedukii.github.io/assets/icon/am-github.png" alt="html icon- icono html"/><p>HTML</p></div>
                         <div><img class="skill-icon" src="https://afedukii.github.io/assets/icon/am-github.png" alt="css icon- icono css"/><p>CSS</p></div>
@@ -139,17 +140,32 @@
             <section id="trust__section" class="minsection d-flex justify-content-around align-items-center">
                 <div class="row">
                     <div class="title__section col-sm-12 d-flex justify-content-center align-items-center">
-                        <span class="middle_bottom_line">> They trusted my work<span class="bottom_bar_flashed">_</span></span>
-                    </div>
+                        <span class="middle_bottom_line" data-section="sections" data-value="trustedme">> They trusted me</span><span class="bottom_bar_flashed">_</span>
+                    </div><br><br><br>
                     <div id="companies_logo-bar" class="col-sm-12 d-flex justify-content-around align-items-center">
                         <div><img  class="companies_trusted" src="https://afedukii.github.io/assets/logo/canacotexmelucan.png" alt="canaco texmelucan logo - logo canaco texmelucan"/></div>
                     </div>
                 </div>
             </section>
-            <section id="portfolio__section" class="gensection d-flex justify-content-around align-items-center">
+            <section id="portfolio__section" class="d-flex justify-content-around align-items-center">
                 <div class="row">
                     <div class="title__section col-sm-12 d-flex justify-content-center align-items-center">
-                        <span class="middle_bottom_line">> Portfolio<span class="bottom_bar_flashed">_</span></span>
+                        <span class="middle_bottom_line" data-section="sections" data-value="portfolio">> Portfolio</span><span class="bottom_bar_flashed">_</span>
+                    </div><br><br><br>
+                    <div class="projects-cover_image col-sm-4 d-flex justify-content-center align-items-center">
+                        <div><img class="desk_project-img" src="#" alt="alfredo moreno portfolio website screenshot- captura de pantalla del sitio web del portafolio de alfredo moreno"/></div>
+                    </div>
+                    <div class="projects-cover_image col-sm-4 d-flex justify-content-center align-items-center">
+                        <div><img class="desk_project-img" src="https://afedukii.github.io/assets/img/am-canacotexmelucanweb.png" alt="canaco texmelucan website screenshot- captura de pantalla del sitio web de canaco texmelucan"/></div>
+                    </div>
+                    <div class="projects-cover_image col-sm-4 d-flex justify-content-center align-items-center">
+                        <div><img class="desk_project-img" src="https://afedukii.github.io/assets/img/am-canacotexmelucanweb.png" alt="gestinventory app screenshot- captura de pantalla de la aplicación gestinventory"/></div>
+                    </div>
+                    <div class="projects-cover_image col-sm-4 d-flex justify-content-center align-items-center">
+                        <div><img class="desk_project-img" src="https://afedukii.github.io/assets/img/am-3rdgrademath.png" alt="3rd grade math game screenshot - captura de pantalla del juego matemáticas 3er grado"/></div>
+                    </div>
+                    <div class="projects-cover_image col-sm-4 d-flex justify-content-center align-items-center">
+                        <div><img class="desk_project-img" src="https://afedukii.github.io/assets/img/am-vectorialdesign.png" alt="vectorial design screenshot- captura de pantalla del diseño vectorial"/></div>
                     </div>
                 </div>
             </section>
