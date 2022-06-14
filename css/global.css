@@ -24,6 +24,7 @@ div.row{
     padding: 0px 0px;
     border-radius: 50px;
     color: #e0f7fa;
+    position: fixed;
 }
 #header_cont_namepage a,#header_cont_sections a{
     text-decoration: none;
@@ -69,7 +70,6 @@ div.row{
     position: sticky;
 }
 .__cont_bar{
-    position: fixed;
     z-index: 5;
     background: rgba(255, 255, 255, 0.01);
     -webkit-backdrop-filter: blur(5px); 
@@ -110,6 +110,18 @@ div.row{
     background: linear-gradient(45deg, #2EA6D5, #23D5AB);
     padding: 40px 0px;
 }
+.description_text{
+    text-align: center;
+}
+.description_info{
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+    
+}.description_info div{
+    border: 1px solid black;
+    margin-left: 25px;
+}
 
 .skills_icons{
     justify-content: center;
@@ -122,10 +134,40 @@ div.row{
 .skill-icon-white{
     background-color: transparent;
 }
-
 #trust__section{
     background-image: linear-gradient(to right, #2EA6D5,#23D5AB,#2EA6D5);
 }
+.project_cover{
+    height: auto;
+}
+.project_title,.project_tags,.project_buttons{
+    text-align: center;
+}.project_tag{
+    justify-content: center;
+    text-align: center;
+}
+.project_tags, .project_buttons{
+    margin-left: 6px;
+}
+.project_info{
+    justify-content: center;
+}
+/**/.project__buttons-tags{
+    width: auto;
+    padding: 5px 10px ;
+    display: inline-flex;
+    margin: 10px;
+    /**/
+    border: 1px solid black;
+    border-radius: 10px;
+}
+.project_description{
+    text-align: justify;
+} .project_description p{
+    margin-left: 10px;
+}
+
+
 .title__section{
     font-family: 'Kdam Thmor Pro', sans-serif;
     color: #e0f7fa;
@@ -189,6 +231,10 @@ div.row{
     width: 50px;
     margin-right: auto;
 }
+.social_media-icon-footer{
+    width: 35px;
+    margin-right: 10px;
+}
 .skill-icon{
     width: 70px;
     border: 1px solid black;
@@ -197,9 +243,14 @@ div.row{
     width: 100px;
     margin: 15px 0px;
 }
+
+.project_cover{
+    width: 100%;
+    border-radius: 10px;
+}
 .desk_project-img{
     width: 100%;
-    margin: 10px 6px;
+    margin: 10px 5px;
     border-radius: 10px;
 }
 
@@ -262,7 +313,7 @@ div.row{
         display: none;
     }
     .bottom_cont_mobile,#mobile_flags{
-        visibility: visible;
+        display: block;
     }
     .title__section{
         font-size: 2rem;
@@ -271,4 +322,8 @@ div.row{
         width: 50px;
         border: 1px solid black;
     }
+}
+
+.project__card, .project_cover, .project_info,.project_tags{
+    border:1px solid black;
 }
