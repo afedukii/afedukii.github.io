@@ -24,7 +24,6 @@ div.row{
     padding: 0px 0px;
     border-radius: 50px;
     color: #e0f7fa;
-    position: fixed;
 }
 #header_cont_namepage a,#header_cont_sections a{
     text-decoration: none;
@@ -70,6 +69,7 @@ div.row{
     position: sticky;
 }
 .__cont_bar{
+    position: fixed;
     z-index: 5;
     background: rgba(255, 255, 255, 0.01);
     -webkit-backdrop-filter: blur(5px); 
@@ -313,7 +313,7 @@ div.row{
         display: none;
     }
     .bottom_cont_mobile,#mobile_flags{
-        display: block;
+        visibility: visible;
     }
     .title__section{
         font-size: 2rem;
