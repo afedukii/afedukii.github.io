@@ -33,4 +33,4 @@ Personal website where you can find information about my professional profile, s
 
 
 ## Copyright
-  Copyright © 2021 [Alfredo Moreno](https://github.com/afedukii).
+  Copyright © 2022 [Alfredo Moreno](https://github.com/afedukii).
