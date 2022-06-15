@@ -12,5 +12,31 @@
         "skills":"> Habilidades",
         "trustedme":"> Ellos confiaron en mi",
         "portfolio":"> Portafolio"
+    },
+    "buttons":{
+        "downloadCV":"Descargar CV",
+        "seeWebsite":"Ver Sitio Web",
+        "seeGallery":"Ver Galería"
+    },
+    "description":{
+        "description01":"Soy Ingeniero en Ciencias de la Computación, desarrollador con conocimientos en diseño gráfico.",
+        "description02":"Persona bien organizada, responsable, amante de la música electrónica y la musca japonesa.",
+        "description03":"Estoy interesado en la conexión del Front-End con el Back-End, por lo que estoy actualizando mis conocimientos para convertirme en Full Stack Developer."
+    },
+    "projects":{
+        "project_title-01":"> Sitio Web Personal",
+        "project_description-01":"Sitio Web donde podrás encontrar mi información y mis proyectos más recientes.",
+        "project_title-02":"> Sitio Web de CANACO Texmelucan",
+        "project_description-02":"Sitio Web de CANACO Texmelucan desarrollada durante el periodo de Prácticas Profesionales 2022.",
+        "project_title-03":"> Aplicación GestInventory",
+        "project_description-03":"Aplicación desarrollada para apoyar la gestión de ventas e inventario para pequeñas y medianas empresas.",
+        "project_title-04":"> Juego de Matemáticas de 3er Grado",
+        "project_description-0":"Juego desarrollado para fomentar el estudio de las Matemáticas para niños de 3er grado de Primaria.",
+        "project_title-05":"> Diseño Gráfico Vectorial",
+        "project_description-05":"Diseño de logos, banners, tarjetas de presentación, etc., y edición de fotográfica."
+    },
+    "footer_info":{
+        "spanWorks":"¡Trabajemos juntos! | ",
+        "contact_me":"Contáctame aquí:"
     }
 }

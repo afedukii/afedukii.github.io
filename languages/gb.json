@@ -12,5 +12,31 @@
         "skills":"> Skills",
         "trustedme":"> They trusted me",
         "portfolio":"> Portfolio"
+    },
+    "buttons":{
+        "downloadCV":"Download CV",
+        "seeWebsite":"See Website",
+        "seeGallery":"See Gallery"
+    },
+    "description":{
+        "description01":"I'm Computing Science Engineer, developer with knowledge in graphic design.",
+        "description02":"Well organized person, responsible, lover of electronic music and japan music.",
+        "description03":"I'm interested in the connection of the Front-End with the Back-End, so i'm updating my knowledge to become in a Full Stack Developer."
+    },
+    "projects":{
+        "project_title-01":"> Personal Website",
+        "project_description-01":"Website where you can find my information and my recently projects.",
+        "project_title-02":"> CANACO Texmelucan's Website",
+        "project_description-02":"Canaco Texmelucan's Website developed during Professional Practices period 2022.",
+        "project_title-03":"> GestInventory App",
+        "project_description-03":"Application developed to support sales and inventory management for small and medium businesses.",
+        "project_title-04":"> 3rd Grade Math Game",
+        "project_description-0":"Game developed for foment the studying of Mathematics for 3rd Grade kids.",
+        "project_title-05":"> Vectorial Graphic Design",
+        "project_description-05":"Design of logos, banners, business cards, etc., and photographic edit."
+    },
+    "footer_info":{
+        "spanWorks":"Let's work together! | ",
+        "contact_me":"Contact me here:"
     }
 }
