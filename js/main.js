@@ -54,5 +54,38 @@ window.onload = function () {
     }
 }
 
+resizeWindow();
+window.addEventListener('resize', resizeWindow);
+function resizeWindow(){
+    if(window.innerWidth < 770){
+        document.getElementById("spanCopyFooter").style.marginTop = "15px";
+		document.getElementById("spanSocialFooter").style.marginTop = "15px";
+		document.getElementById("bottomBar").style.height = "100px";
+		document.getElementById("bottomBar").classList.remove("align-items-center");
+		document.getElementById("bottomBar").classList.add("align-items-start");
+    }else{
+		document.getElementById("spanCopyFooter").style.marginTop = "0px";
+		document.getElementById("spanSocialFooter").style.marginTop = "0px";
+		document.getElementById("bottomBar").style.height = "50px";
+		document.getElementById("bottomBar").classList.remove("align-items-start");
+		document.getElementById("bottomBar").classList.add("align-items-center");
+    }
+}
 
+
+
+
+
+
+
+/* icon bar rotation */
+function rotateIcon(x) {
+    x.classList.toggle("change");
+	var mobileMenu = document.getElementById("mobileMenu");
+	if(mobileMenu.style.display == "block"){
+		mobileMenu.style.display = "none";
+	}else{
+		mobileMenu.style.display = "block";
+	}
+}
 
