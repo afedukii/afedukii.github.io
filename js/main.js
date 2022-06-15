@@ -63,12 +63,20 @@ function resizeWindow(){
 		document.getElementById("bottomBar").style.height = "100px";
 		document.getElementById("bottomBar").classList.remove("align-items-center");
 		document.getElementById("bottomBar").classList.add("align-items-start");
+		var txtDescriptionElements = document.getElementsByClassName("project_description");
+		for(var i=0;i<txtDescriptionElements.length;i++){
+			txtDescriptionElements[i].style.textAlign = "justify";
+		}
     }else{
 		document.getElementById("spanCopyFooter").style.marginTop = "0px";
 		document.getElementById("spanSocialFooter").style.marginTop = "0px";
 		document.getElementById("bottomBar").style.height = "50px";
 		document.getElementById("bottomBar").classList.remove("align-items-start");
 		document.getElementById("bottomBar").classList.add("align-items-center");
+		var txtDescriptionElements = document.getElementsByClassName("project_description");
+		for(var i=0;i<txtDescriptionElements.length;i++){
+			txtDescriptionElements[i].style.textAlign = "center";
+		}
     }
 }
 

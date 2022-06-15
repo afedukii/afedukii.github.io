@@ -11,7 +11,7 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    background: linear-gradient(45deg, #2EA6D5, #2EA6D5);
+    background: linear-gradient(to bottom, #e0f7fa, #101217);
 }
 div.row{
     margin-right: 0px;
@@ -84,8 +84,9 @@ div.row{
 }
 /*presentationsection*/
 #presentation__section{
-    background: linear-gradient(45deg, #2EA6D5, #23D5AB);
+    background: linear-gradient(to bottom, #101217, #006064,#006064,#101217);
     font-family: 'Kdam Thmor Pro', sans-serif;
+    color:#e0f7fa
 }#innerdivPres{
     transform: translate(10px,-50%);
 }
@@ -107,9 +108,13 @@ div.row{
     transform : scale(1.08);
 }
 #aboutme__section,#skills__section,#portfolio__section{
-    background: linear-gradient(45deg, #2EA6D5, #23D5AB);
+    background: linear-gradient(to bottom, #101217, #006064,#006064,#101217);
     padding: 40px 0px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 1rem;
+    color:#e0f7fa;
 }
+
 .description_text{
     text-align: center;
 }
@@ -119,7 +124,6 @@ div.row{
     align-items: center;
     
 }.description_info div{
-    border: 1px solid black;
     margin-left: 25px;
 }
 
@@ -135,7 +139,8 @@ div.row{
     background-color: transparent;
 }
 #trust__section{
-    background-image: linear-gradient(to right, #2EA6D5,#23D5AB,#2EA6D5);
+    background: linear-gradient(to bottom, #101217,#006064,#006064,#006064,#101217);
+    padding: 30px 0px;
 }
 .project_cover{
     height: auto;
@@ -148,33 +153,49 @@ div.row{
 }.project_tag i{
     font-size: 25px;
 }
-.fa-html5, .htmlText{
-    color: orange;
+.htmlText{
+    color: #e44d26;
 }
-.fa-css3-alt, .cssText{
-    color: blue;
+.cssText{
+    color: #2062af;
 }
-.fa-js-square,.jsText{
-    color: yellow;
+.jsText{
+    color: #f7df1e;
 }
-.jsonText,.fa-github,.githubText,.fa-github-alt {
+.jsonText{
+    color: #040404;
+}
+.githubText{
     color: #e0f7fa;
 }
-.fa-bootstrap,.bootstrapText{
+.gitText{
+    color: #f34f29;
+}
+.bootstrapText{
     color: #563d7c;
 }
-.fa-php,.phpText{
+.phpText{
     color: #474A8A;
 }
-.fa-java,.javaText{
-    color: #f89820;
+.javaText{
+    color: #e76f00;
+}
+.dartText{
+    color: #2cb7f6;
+}
+.coreldrawText{
+    color: #00863f;
+}
+.photoshopText{
+    color: #31c5f0;
 }
 .jsonIcon{
     height: 21px;
     content: url('https://api.iconify.design/simple-icons/json.svg?color=%23e0f7fa');
 }
-.htmlText,.cssText,.jsText,.jsonText,.bootstrapText,.githubText,.phpText,.javaText{
+.htmlText,.cssText,.jsText,.jsonText,.bootstrapText,.githubText,.gitText,.phpText,.javaText,.dartText,.coreldrawText,.photoshopText{
     font-weight: 750;
+    text-shadow: 0px 0px 1px #e0f7fa;
 }
 
 .project_tags, .project_buttons{
@@ -185,15 +206,19 @@ div.row{
 }
 /**/.project__buttons-tags{
     width: auto;
-    padding: 5px 10px ;
+    padding: 5px 10px;
     display: inline-flex;
     margin: 10px;
+    font-weight: 750;
+}
+.project_button{
+
     /**/
     border: 1px solid black;
     border-radius: 10px;
 }
 .project_description{
-    text-align: justify;
+    text-align: center;
 } .project_description p{
     margin-left: 10px;
 }
@@ -269,9 +294,15 @@ div.row{
 .skill-icon{
     width: 70px;
 }
+.skill-icon-tag{
+    width: 20px;
+}
+.php_github-tag{
+    width: 25px;
+}
 .companies_trusted{
     width: 100px;
-    margin: 15px 0px;
+    margin: 30px 0px;
 }
 
 .project_cover{
@@ -288,7 +319,7 @@ div.row{
 .scroll_section{
     width: 20px;
     height: 40px;
-    border: 2px solid black;
+    border: 2px solid #e0f7fa;
     border-radius: 50px;
     position: absolute;
     left: 50%;
@@ -302,7 +333,7 @@ div.row{
     position: absolute;
     top: 20%;
     left: 50%;
-    border: 2px solid black;
+    border: 2px solid #e0f7fa;
     width: 10px;
     height: 10px;
     transform: translate(-50%,-100%) rotate(45deg);
@@ -351,8 +382,4 @@ div.row{
     .skill-icon{
         width: 50px;
     }
-}
-
-.project__card, .project_cover, .project_info,.project_tags{
-    border:1px solid black;
 }
