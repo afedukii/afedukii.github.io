@@ -243,7 +243,7 @@ footer{
 }a[data-value='contact_me']{
     text-decoration:underline;
 }footer div{
-    padding: 3px 5px;
+    padding: 3px 0px;
 }
 #copyrightBar{
     height: 50px;
@@ -254,7 +254,7 @@ footer{
     margin-top:15px;
 }
 #contact-n-title .row{
-    font-size: .85rem;
+    font-size: .8rem;
     text-align:right;
 }
 
@@ -305,6 +305,8 @@ footer{
 /*img*/
 .iconImg{
     width: 15px;
+}.iconImg-footer{
+    width: 10px;
 }
 .iconImgMobile{
     width: 30px;
