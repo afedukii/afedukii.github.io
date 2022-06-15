@@ -60,9 +60,9 @@ function resizeWindow(){
     if(window.innerWidth < 770){
         document.getElementById("spanCopyFooter").style.marginTop = "15px";
 		document.getElementById("spanSocialFooter").style.marginTop = "15px";
-		document.getElementById("bottomBar").style.height = "100px";
-		document.getElementById("bottomBar").classList.remove("align-items-center");
-		document.getElementById("bottomBar").classList.add("align-items-start");
+		document.getElementById("copyrightBar").style.height = "100px";
+		document.getElementById("copyrightBar").classList.remove("align-items-center");
+		document.getElementById("copyrightBar").classList.add("align-items-start");
 		var txtDescriptionElements = document.getElementsByClassName("project_description");
 		for(var i=0;i<txtDescriptionElements.length;i++){
 			txtDescriptionElements[i].style.textAlign = "justify";
@@ -70,9 +70,9 @@ function resizeWindow(){
     }else{
 		document.getElementById("spanCopyFooter").style.marginTop = "0px";
 		document.getElementById("spanSocialFooter").style.marginTop = "0px";
-		document.getElementById("bottomBar").style.height = "50px";
-		document.getElementById("bottomBar").classList.remove("align-items-start");
-		document.getElementById("bottomBar").classList.add("align-items-center");
+		document.getElementById("copyrightBar").style.height = "50px";
+		document.getElementById("copyrightBar").classList.remove("align-items-start");
+		document.getElementById("copyrightBar").classList.add("align-items-center");
 		var txtDescriptionElements = document.getElementsByClassName("project_description");
 		for(var i=0;i<txtDescriptionElements.length;i++){
 			txtDescriptionElements[i].style.textAlign = "center";

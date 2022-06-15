@@ -11,7 +11,7 @@ html{
     scroll-behavior: smooth;
 }
 body{
-    background: linear-gradient(to bottom, #e0f7fa, #101217);
+    background: linear-gradient(to bottom, #101217, #101217);
 }
 div.row{
     margin-right: 0px;
@@ -212,18 +212,20 @@ div.row{
     font-weight: 750;
 }
 .project_button{
-
     /**/
-    border: 1px solid black;
-    border-radius: 10px;
+    border: 2px solid #18ffff;
+    background-color: #006064;
+    border-radius: 15px;
+    color: #e0f7fa;
+    text-decoration: none;
+}.project_button-a{
+    text-decoration: none;
 }
 .project_description{
     text-align: center;
 } .project_description p{
     margin-left: 10px;
 }
-
-
 .title__section{
     font-family: 'Kdam Thmor Pro', sans-serif;
     color: #e0f7fa;
@@ -231,6 +233,32 @@ div.row{
     font-size: 2.5rem;
     text-align: center;
 }
+footer{
+    width: 100%;
+    color: #e0f7fa;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}footer a{
+    color: #e0f7fa;
+    text-decoration: none;
+}a[data-value='contact_me']{
+    text-decoration:underline;
+}footer div{
+    padding: 3px 5px;
+}
+#copyrightBar{
+    height: 50px;
+    font-size: .8rem;
+    border-top: 1px solid #e0f7fa;
+}
+#copyrightBar span{
+    margin-top:15px;
+}
+#contact-n-title .row{
+    font-size: .85rem;
+    text-align:right;
+}
+
+
 .bottom_bar_flashed{
     animation-name: flashing;
     animation-duration: 1s;
@@ -272,6 +300,8 @@ div.row{
 }
 
 
+
+
 /*img*/
 .iconImg{
     width: 15px;
@@ -311,6 +341,10 @@ div.row{
 }
 .desk_project-img{
     width: 100%;
+    margin: 10px 5px;
+    border-radius: 10px;
+}.desk_project-img-gi{
+    width: 40%;
     margin: 10px 5px;
     border-radius: 10px;
 }
