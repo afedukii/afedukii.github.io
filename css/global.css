@@ -145,9 +145,40 @@ div.row{
 }.project_tag{
     justify-content: center;
     text-align: center;
+}.project_tag i{
+    font-size: 25px;
 }
+.fa-html5, .htmlText{
+    color: orange;
+}
+.fa-css3-alt, .cssText{
+    color: blue;
+}
+.fa-js-square,.jsText{
+    color: yellow;
+}
+.jsonText,.fa-github,.githubText,.fa-github-alt {
+    color: #e0f7fa;
+}
+.fa-bootstrap,.bootstrapText{
+    color: #563d7c;
+}
+.fa-php,.phpText{
+    color: #474A8A;
+}
+.fa-java,.javaText{
+    color: #f89820;
+}
+.jsonIcon{
+    height: 21px;
+    content: url('https://api.iconify.design/simple-icons/json.svg?color=%23e0f7fa');
+}
+.htmlText,.cssText,.jsText,.jsonText,.bootstrapText,.githubText,.phpText,.javaText{
+    font-weight: 750;
+}
+
 .project_tags, .project_buttons{
-    margin-left: 6px;
+    margin: 0px 6px;
 }
 .project_info{
     justify-content: center;
@@ -237,7 +268,6 @@ div.row{
 }
 .skill-icon{
     width: 70px;
-    border: 1px solid black;
 }
 .companies_trusted{
     width: 100px;
@@ -320,7 +350,6 @@ div.row{
     }
     .skill-icon{
         width: 50px;
-        border: 1px solid black;
     }
 }
 
