@@ -239,6 +239,7 @@ footer{
     font-family: 'Kdam Thmor Pro', sans-serif;
 }footer a{
     color: #e0f7fa;
+    font-size: .8rem;
     text-decoration: none;
 }a[data-value='contact_me']{
     text-decoration:underline;
