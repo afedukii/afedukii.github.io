@@ -15,8 +15,12 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 
     </head>
-    <body>
-        <header class="header_cont __cont_bar d-flex justify-content-around align-items-center">
+    <body class="hidden">
+        <div class="loader" id="loader">
+            <div class="lds-hourglass"></div>
+        </div>
+
+        <div class="header_cont __cont_bar d-flex justify-content-around align-items-center" id="navBarHead">
             <div id="header_cont_namepage" class="d-flex justify-content-around align-items-center">
                 <a href="https://afedukii.github.io/">
                     <img src="https://afedukii.github.io/assets/icon/am-less_than.png" class="iconImg" alt="less than symbol  - simbolo menor que"/>
@@ -38,8 +42,10 @@
                     <img src="https://afedukii.github.io/assets/icon/gb-icon.svg" alt="bandera de Gran Bretaña - Great Britain's flag"/>
                 </div>
             </div>
-        </header>
+        </div> 
+        
         <main>
+            
             <section id="presentation__section" class="gensection d-flex align-items-center justify-content-center">
                 <div id="innerdivPres" class="row">
                     <div class="col-sm-12 d-flex align-items-center justify-content-center">
@@ -99,7 +105,7 @@
                                 </p> 
                             </div>
                             <div class="col-sm-12 d-flex justify-content-center">
-                                <a href="https://github.com/afedukii" class="project_button-a"><div class="project__buttons-tags project_button" data-section="buttons" data-value="downloadCV">Download CV</div></a>
+                                <a href="https://afedukii.github.io/documents/alfredomoreno-cv.pdf" target="_blank"  class="project_button-a"><div class="project__buttons-tags project_button" data-section="buttons" data-value="downloadCV">Download CV</div></a>
                             </div>
                         </div>                  
                     </div>
@@ -296,7 +302,7 @@
                     </span>
                 </div>
             </footer>
-            <div class="__cont_bar bottom_cont_mobile d-flex justify-content-around align-items-center">
+            <div class="__cont_bar bottom_cont_mobile d-flex justify-content-around align-items-center" id="navBarBottom">
                 <div class="d-flex justify-content-center align-items-center">
                     <a href="https://afedukii.github.io/#aboutme__section"><img src="https://afedukii.github.io/assets/icon/am-aboutme.png" class="iconImgMobile" alt="about me icon - icono acerca de mi"/></a>
                 </div>
@@ -314,20 +320,7 @@
                 </div>
             </div>
         </main>
-        
-        <!--<footer>
-            <h2 class="titulo"><span class="typed"></span></h2>
-                    <div class="titulo" id="knowledge_pres">
-                        <p><i>Ingeniero en Ciencias de la Computaci&oacute;n</i></p>
-                        <p><i>Desarrollador Front-End</i></p>
-                        <p><i>Desarrollador M&oacute;vil</i></p>
-                        <p><i>Con conocimientos en Diseño Digital</i></p>
-                    </div>
-            <div class="d-flex justify-content-center">CONTACTAME</div>
-            <div></div>
-            <div id="copyright">&#169; Copyright 2022 Diseñado por Alfredo Moreno - Todos los derechos reservados.</div>
-        </footer>
-        -->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.11"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
         <script src="js/main.js"></script>

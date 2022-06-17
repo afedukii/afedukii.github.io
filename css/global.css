@@ -16,6 +16,56 @@ body{
 div.row{
     margin-right: 0px;
 }
+
+/*PRE LOAD*/
+.loader{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    background-color: #040404;
+    z-index: 1000000000000;
+}
+.hidden{
+    overflow: hidden;
+}
+
+.lds-hourglass {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+  }
+  .lds-hourglass:after {
+    content: " ";
+    display: block;
+    border-radius: 50%;
+    width: 0;
+    height: 0;
+    margin: 8px;
+    box-sizing: border-box;
+    border: 32px solid #dfc;
+    border-color: #dfc transparent #dfc transparent;
+    animation: lds-hourglass 1.2s infinite;
+  }
+  @keyframes lds-hourglass {
+    0% {
+      transform: rotate(0);
+      animation-timing-function: cubic-bezier(0.55, 0.055, 0.675, 0.19);
+    }
+    50% {
+      transform: rotate(900deg);
+      animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+    }
+    100% {
+      transform: rotate(1800deg);
+    }
+  }
+  
+/**/  
+  
+
+
 .header_cont{
     top: 5px;
     left: 0px;
@@ -24,6 +74,7 @@ div.row{
     padding: 0px 0px;
     border-radius: 50px;
     color: #e0f7fa;
+    z-index: -1;
 }
 #header_cont_namepage a,#header_cont_sections a{
     text-decoration: none;
@@ -67,10 +118,10 @@ div.row{
     border-top-right-radius: 25px;
     visibility: hidden;
     position: sticky;
+    z-index: -1;
 }
 .__cont_bar{
     position: fixed;
-    z-index: 5;
     background: rgba(255, 255, 255, 0.01);
     -webkit-backdrop-filter: blur(5px); 
     backdrop-filter: blur(5px);
@@ -86,7 +137,8 @@ div.row{
 #presentation__section{
     background: linear-gradient(to bottom, #101217, #006064,#006064,#101217);
     font-family: 'Kdam Thmor Pro', sans-serif;
-    color:#e0f7fa
+    color:#e0f7fa;
+    visibility: hidden;
 }#innerdivPres{
     transform: translate(10px,-50%);
 }
