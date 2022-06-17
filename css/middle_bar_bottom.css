@@ -1,0 +1,15 @@
+
+.middle_bottom_line{
+    display: inline-block;
+    padding-bottom: 5px;
+    position: relative;
+}
+.middle_bottom_line:before{
+    content: "";
+    position: absolute;
+    width: 50%;
+    height: 1px;
+    bottom: 0;
+    left: 25%;
+    border-bottom: 4px solid #e0f7fa ;
+}

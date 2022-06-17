@@ -11,7 +11,8 @@
         "aboutme":"> Acerca de mi",
         "skills":"> Habilidades",
         "trustedme":"> Ellos confiaron en mi",
-        "portfolio":"> Portafolio"
+        "portfolio":"> Portafolio",
+        "gallery":"> Galería"
     },
     "buttons":{
         "downloadCV":"Descargar CV",

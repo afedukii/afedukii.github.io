@@ -1,0 +1,39 @@
+footer{
+    width: 100%;
+    color: #e0f7fa;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}footer a{
+    color: #e0f7fa;
+    font-size: .8rem;
+    text-decoration: none;
+}a[data-value='contact_me']{
+    text-decoration:underline;
+}footer div{
+    padding: 3px 0px;
+}
+#copyrightBar{
+    height: 50px;
+    font-size: .8rem;
+    border-top: 1px solid #e0f7fa;
+}
+#copyrightBar span{
+    margin-top:15px;
+}
+#contact-n-title .row{
+    font-size: .8rem;
+    text-align:right;
+}
+
+/*img*/
+.iconImg{
+    width: 15px;
+}.iconImg-footer{
+    width: 10px;
+}
+.iconImgMobile{
+    width: 30px;
+}
+.social_media-icon-footer{
+    width: 35px;
+    margin-right: 10px;
+}

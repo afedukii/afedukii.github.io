@@ -1,0 +1,217 @@
+.gensection{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+/*presentationsection*/
+#presentation__section{
+    background: linear-gradient(to bottom, #101217, #006064,#006064,#101217);
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    color:#e0f7fa;
+    visibility: hidden;
+}#innerdivPres{
+    transform: translate(10px,-50%);
+}
+#i-es{
+    display: none;
+}
+#namePres{
+    font-size: 5rem;
+    text-align: center;
+}
+
+#aboutme__section,#skills__section,#portfolio__section{
+    background: linear-gradient(to bottom, #101217, #006064,#006064,#101217);
+    padding: 40px 0px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 1rem;
+    color:#e0f7fa;
+}
+
+.description_text{
+    text-align: center;
+}
+.description_info{
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+    
+}.description_info div{
+    margin-left: 25px;
+}
+
+.skills_icons{
+    justify-content: center;
+    text-align: center;
+}
+.skills_icons div{
+    width: 120px;
+    transform: translate(8px,0px);
+}
+.skill-icon-white{
+    background-color: transparent;
+}
+#trust__section{
+    background: linear-gradient(to bottom, #101217,#006064,#006064,#006064,#101217);
+    padding: 30px 0px;
+}
+.project_cover{
+    height: auto;
+}
+.project_title,.project_tags,.project_buttons{
+    text-align: center;
+}.project_tag{
+    justify-content: center;
+    text-align: center;
+}.project_tag i{
+    font-size: 25px;
+}
+.htmlText{
+    color: #e44d26;
+}
+.cssText{
+    color: #2062af;
+}
+.jsText{
+    color: #f7df1e;
+}
+.jsonText{
+    color: #040404;
+}
+.githubText{
+    color: #e0f7fa;
+}
+.gitText{
+    color: #f34f29;
+}
+.bootstrapText{
+    color: #563d7c;
+}
+.phpText{
+    color: #474A8A;
+}
+.javaText{
+    color: #e76f00;
+}
+.dartText{
+    color: #2cb7f6;
+}
+.coreldrawText{
+    color: #00863f;
+}
+.photoshopText{
+    color: #31c5f0;
+}
+.jsonIcon{
+    height: 21px;
+    content: url('https://api.iconify.design/simple-icons/json.svg?color=%23e0f7fa');
+}
+.htmlText,.cssText,.jsText,.jsonText,.bootstrapText,.githubText,.gitText,.phpText,.javaText,.dartText,.coreldrawText,.photoshopText{
+    font-weight: 750;
+    text-shadow: 0px 0px 1px #e0f7fa;
+}
+
+.project_tags, .project_buttons{
+    margin: 0px 6px;
+}
+.project_info{
+    justify-content: center;
+}
+/**/.project__buttons-tags{
+    width: auto;
+    padding: 5px 10px;
+    display: inline-flex;
+    margin: 10px;
+    font-weight: 750;
+}
+.project_button{
+    /**/
+    border: 2px solid #18ffff;
+    background-color: #006064;
+    border-radius: 15px;
+    color: #e0f7fa;
+    text-decoration: none;
+}.project_button-a{
+    text-decoration: none;
+}
+.project_description{
+    text-align: center;
+} .project_description p{
+    margin-left: 10px;
+}
+.title__section{
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    color: #e0f7fa;
+    padding: 0px 0px;
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+#social_media-icons{
+    position: absolute;
+    bottom: 175px;
+}#social_media-icons a{
+    margin: 0px 30px;
+}#social_media icons img{
+    transition: width 1s, height 1s, transform 1s;
+}#social_media-icons img:hover{
+    transform : scale(1.08);
+}
+
+
+
+
+
+
+
+
+#photo__me{
+    border-bottom:4px solid #23D5AB;
+    max-width: 50%;
+}
+.social_media-icon{
+    width: 50px;
+    margin-right: auto;
+}
+
+.skill-icon{
+    width: 70px;
+}
+.skill-icon-tag{
+    width: 20px;
+}
+.php_github-tag{
+    width: 25px;
+}
+.companies_trusted{
+    width: 100px;
+    margin: 30px 0px;
+}
+
+.project_cover{
+    width: 100%;
+    border-radius: 10px;
+}
+.desk_project-img{
+    width: 100%;
+    margin: 10px 5px;
+    border-radius: 10px;
+}.desk_project-img-gi{
+    width: 40%;
+    margin: 10px 5px;
+    border-radius: 10px;
+}
+
+/*media*/
+@media (max-width: 770px){
+    #namePres {
+        font-size: 3.5rem;
+        line-height: 4rem;
+    }
+    .title__section{
+        font-size: 2rem;
+    }
+    .skill-icon{
+        width: 50px;
+    }
+}

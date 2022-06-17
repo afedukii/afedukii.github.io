@@ -11,7 +11,8 @@
         "aboutme":"> About me",
         "skills":"> Skills",
         "trustedme":"> They trusted me",
-        "portfolio":"> Portfolio"
+        "portfolio":"> Portfolio",
+        "gallery":"> Gallery"
     },
     "buttons":{
         "downloadCV":"Download CV",
