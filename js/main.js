@@ -92,13 +92,6 @@ function resizeWindow(){
 		document.getElementById('navBarHead').style.zIndex = 5;
     }
 }
-
-
-
-
-
-
-
 /* icon bar rotation */
 function rotateIcon(x) {
     x.classList.toggle("change");
