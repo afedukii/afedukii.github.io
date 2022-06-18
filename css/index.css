@@ -96,6 +96,9 @@
 .dartText{
     color: #2cb7f6;
 }
+.firebaseText{
+    color: #ffa610;
+}
 .coreldrawText{
     color: #00863f;
 }
@@ -106,7 +109,7 @@
     height: 21px;
     content: url('https://api.iconify.design/simple-icons/json.svg?color=%23e0f7fa');
 }
-.htmlText,.cssText,.jsText,.jsonText,.bootstrapText,.githubText,.gitText,.phpText,.javaText,.dartText,.coreldrawText,.photoshopText{
+.htmlText,.cssText,.jsText,.jsonText,.bootstrapText,.githubText,.gitText,.phpText,.javaText,.dartText,.firebaseText,.coreldrawText,.photoshopText{
     font-weight: 750;
     text-shadow: 0px 0px 1px #e0f7fa;
 }
