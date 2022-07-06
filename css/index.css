@@ -5,7 +5,7 @@
 }
 /*presentationsection*/
 #presentation__section{
-    background: linear-gradient(to bottom, #101217, #006064,#006064,#101217);
+    background: linear-gradient(to bottom, #101217, #006064);
     font-family: 'Kdam Thmor Pro', sans-serif;
     color:#e0f7fa;
     visibility: hidden;
@@ -21,7 +21,7 @@
 }
 
 #aboutme__section,#skills__section,#portfolio__section{
-    background: linear-gradient(to bottom, #101217, #006064,#006064,#101217);
+    background: linear-gradient(to bottom, #006064,#006064);
     padding: 40px 0px;
     font-family: 'Kdam Thmor Pro', sans-serif;
     font-size: 1rem;
@@ -52,7 +52,7 @@
     background-color: transparent;
 }
 #trust__section{
-    background: linear-gradient(to bottom, #101217,#006064,#006064,#006064,#101217);
+    background: linear-gradient(to bottom, #006064,#006064);
     padding: 30px 0px;
 }
 .project_cover{
@@ -66,7 +66,7 @@
 }.project_tag i{
     font-size: 25px;
 }
-.htmlText{
+/*.htmlText{
     color: #e44d26;
 }
 .cssText{
@@ -104,14 +104,14 @@
 }
 .photoshopText{
     color: #31c5f0;
-}
+}*/
 .jsonIcon{
     height: 21px;
     content: url('https://api.iconify.design/simple-icons/json.svg?color=%23e0f7fa');
 }
 .htmlText,.cssText,.jsText,.jsonText,.bootstrapText,.githubText,.gitText,.phpText,.javaText,.dartText,.firebaseText,.coreldrawText,.photoshopText{
     font-weight: 750;
-    text-shadow: 0px 0px 1px #e0f7fa;
+    color: #e0f7fa;
 }
 
 .project_tags, .project_buttons{
@@ -160,13 +160,6 @@
 }#social_media-icons img:hover{
     transform : scale(1.08);
 }
-
-
-
-
-
-
-
 
 #photo__me{
     border-bottom:4px solid #23D5AB;

@@ -15,11 +15,17 @@
 body{
     margin: 0;
     padding: 0;
-    background: linear-gradient(to bottom, #101217,#006064,#006064,#006064,#101217);
+    background: linear-gradient(to bottom, #101217,#006064,#006064,#006064);
 }
 .columns img{
     width: 100%;
     margin-top: 5px;
+
+    border: 3px solid;
+    border-image-slice: 1;
+    border-width: 5px;
+    border-image-source: linear-gradient(to left, #f3f34b, #30b46c);
+    /*border-image-source: linear-gradient(to left, #743ad5, #d53a9d);*/
 }
 .row_gallery{
     display: flex;
